@@ -13,11 +13,12 @@
     <div class="container">
         <div class="row">
             <div class="col-12 d-flex justify-content-between">
-                <form action="" class="w-100">
+                <form action="" class="w-100" id="formulario">
                     <label for="nombre" class="form-label mt-4">Nombre</label>
-                    <input type="text" name="nombre" placeholder="Nombre" class="form-control">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="form-control">
                     <label for="password" class="form-labe mt-4">Password</label>
-                    <input type="text" name="password" placeholder="Password" class="form-control">
+                    <input type="text" name="password" id="password" placeholder="Password" class="form-control">
+                    <input type="button" class="btn btn-primary mt-4" onclick="capturar()" value="Enviar">
                     <textarea name="resultado" id="resultado" class="form-control mt-4"></textarea>
                 </form>
             </div>
